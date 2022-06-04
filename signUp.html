@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .members{
+            width: 350px;
+            height: 450px;
+            margin:auto;
+            display: grid;
+            margin-top: 80px;
+            background-color:rgb(72,201,176);
+            padding-bottom: 20px;
+        }.members>input{
+            width: 80%;
+            height: 40px;
+            margin: auto;
+            margin-top: -20px;
+            background-color: rgb(242,242,242);
+            border: 1px solid transparent;
+       }.members>p{
+            text-align: center;
+            margin-top: 40px;
+            color: white;
+            font-family: 'Segoe UI';
+            font-size: x-large;
+        }.members>button{
+            height: 50px;
+            background-color: rgb(23,165,137);
+            color: white;
+            border: 1px solid transparent;
+            width: 80%;
+            margin: auto;
+            margin-top: -20px;
+            font-family: 'Segoe UI';
+         }.members>button:nth-child(6){
+            margin-top:-30px;
+        }@media all and (min-width:150px) and (max-width:480px){
+            .members{
+            width: 200px;
+            height: 450px;
+            margin:auto;
+            display: grid;
+            margin-top: 80px;
+            background-color:rgb(72,201,176);
+            padding-bottom: 20px;
+             }
+            }
+     </style>
+</head>
+<body>
+  
+        <div class="members">
+        <p>- Visitor -</p>
+       <input type="text" placeholder="Full Name">
+       <input type="text" placeholder="Email">
+       <input type="text" placeholder="Organization">
+       <button>SIGN UP</button>
+       <button>RETURN</button>
+     </div>
+ 
+</body>
+</html>
