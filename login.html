@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(88, 12, 182);
+        }
+        #log{
+            width: 25%;
+            margin: auto;
+            margin-top: 200px;
+            display: grid;
+            justify-items: center;
+            align-items: center;
+            border-radius: 10px;
+            background-color: white;
+        }
+        #log>div:nth-child(1){
+            margin: 40px;
+            
+        }
+        input{
+            padding: 10px;
+            border-color: transparent;
+            border-bottom: 1px solid gray;
+            margin: 10px;
+        }
+        button{
+            color: white;
+            font-size: 20px;
+            padding: 10px;
+            background-color: rgb(88, 12, 182);
+            border-color: transparent;
+            margin: 10px ;
+        }
+        a{
+            text-decoration: none;
+        }
+        #log>div:nth-child(2){
+            display: grid;
+            gap: 5px;
+            line-height: 20px;
+        }
+        #log>div:nth-child(3){
+            text-align: center;
+            font-size: 15px;
+            margin: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="log">
+        <div><h1>Login</h1></div>
+        <div><input type="text" placeholder="Email" >
+            <input type="password" placeholder="Pasword">
+            <button>Login</button>
+        </div>
+        <div><p>Forgot <a href="www.google.com" target="_blank">password?</a></p>
+            <p>Don't have an account? <a href="" >Sign up</a></p>
+        </div>
+    </div>
+</body>
+</html>
